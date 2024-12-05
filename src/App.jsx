@@ -2,6 +2,6 @@
 import ListGroup from "./components/ListGroup";
 
 function App() {
-    return <div><ListGroup /></div>;
+    return <div><message /></div>;
 }
 export default App;
