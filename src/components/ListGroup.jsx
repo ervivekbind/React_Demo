@@ -9,7 +9,7 @@ function ListGroup() {
         'London',
         'Tokyo'
     ];
-    items = [];
+    //items = [];
 
     
     const Message = items.length == 0 ? <p>No item found</p> : null
