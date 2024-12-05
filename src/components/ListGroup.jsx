@@ -12,7 +12,7 @@ function ListGroup() {
     //items = [];
 
     
-    const Message = items.length == 0 ? <p>No item found</p> : null
+  //  const Message = items.length == 0 ? <p>No item found</p> : null
 
     
     return (
