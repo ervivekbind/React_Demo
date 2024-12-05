@@ -2,25 +2,30 @@ import { fragment } from "react";
 
 function ListGroup() {
 
-    const items = [
-
+    let items = [
         'New York',
         'San',
         'JSX',
         'London',
         'Tokyo'
     ];
+    items = [];
+
+    
+    const Message = items.length == 0 ? <p>No item found</p> : null
+
     
     return (
         <>
-        <h1>List</h1>
+            <h1>List</h1>
+            { Message }
         <ul className="list-group">
                 {items.map(item => (
-                    <li>{item}</li>))}
+                    <li key = {item}>{item}</li>))}
             </ul>
         </>
-//enter 5 digit
     )
+    
 }
 
 export default ListGroup;
