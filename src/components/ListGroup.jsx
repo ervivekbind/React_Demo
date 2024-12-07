@@ -10,10 +10,7 @@ function ListGroup() {
         'London',
         'Tokyo'
     ];
-
-    const [selectedIndex, setSelectedIndex] = useState(-1)
-  
-    return (
+return (
         <>
             <h2>List</h2>
             {items.length == 0 && <p>No items found</p>}
