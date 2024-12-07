@@ -4,7 +4,7 @@ function ListGroup() {
 
     let items = [
         'New York',
-        'San',
+        'ASia',
         'JSX',
         'London',
         'Tokyo'
