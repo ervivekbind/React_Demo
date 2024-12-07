@@ -1,16 +1,11 @@
 import { useState } from "react";
 // { items: [] , heading: string }
 
-function ListGroup() {
 
-    let items = [
-        'New York',
-        'ASia',
-        'JSX',
-        'London',
-        'Tokyo'
-    ];
 
+function ListGroup({ items, heading }) {
+
+ 
     const [selectedIndex, setSelectedIndex] = useState(-1)
 
 return (
