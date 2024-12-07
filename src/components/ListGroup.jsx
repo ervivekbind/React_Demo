@@ -10,6 +10,9 @@ function ListGroup() {
         'London',
         'Tokyo'
     ];
+
+    const [selectedIndex, setSelectedIndex] = useState(-1)
+
 return (
         <>
             <h2>List</h2>
