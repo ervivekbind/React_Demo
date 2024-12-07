@@ -9,13 +9,8 @@ function ListGroup() {
         'London',
         'Tokyo'
     ];
-    items = [];
-
-    
-
-    const getMessage = () => {
-        return items.length == 0 ? <p>No item found</p> : null;
-    }
+    //event handler
+    const handleClick = (event: "MouseEvent") => console.log(event);
 
     
     return (
